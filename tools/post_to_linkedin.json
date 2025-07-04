@@ -1,0 +1,16 @@
+{
+  "name": "PostToLinkedIn",
+  "type": "function",            
+  "description": "Publishes text to LinkedIn using post_to_linkedin.py",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "The text content to post on LinkedIn"
+      }
+    },
+    "required": ["text"],
+    "additionalProperties": false
+  }
+}
